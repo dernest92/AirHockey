@@ -93,6 +93,7 @@ try {
     }
 
     handleTouchMove = e => {
+      e.preventDefault();
       const { clientX, clientY } = e.touches[0];
       const { top, left } = this.canvas.getBoundingClientRect();
       this.moveStriker(clientX - left, clientY - top);

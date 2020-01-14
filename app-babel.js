@@ -264,6 +264,7 @@ try {
           _assertThisInitialized(_this3),
           "handleTouchMove",
           function(e) {
+            e.preventDefault();
             var _e$touches$ = e.touches[0],
               clientX = _e$touches$.clientX,
               clientY = _e$touches$.clientY;
