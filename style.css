@@ -7,6 +7,7 @@
 
 body,
 html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background: #333;
   min-height: 100vh !important;
 }
@@ -15,7 +16,13 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   height: 100vh;
+}
+
+h1 {
+  color: #ccc;
+  font-weight: 300;
 }
 
 .canvas {
