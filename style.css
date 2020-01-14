@@ -24,3 +24,12 @@ html {
   cursor: none;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3), 0 0 15px rgba(0, 0, 0, 0.3);
 }
+
+.error {
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: red;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+}
