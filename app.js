@@ -1,3 +1,4 @@
+"use strict";
 try {
   class Vector {
     constructor(x, y) {
